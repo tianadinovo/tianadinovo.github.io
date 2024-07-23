@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="assets/main.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="Tiana Di Novo's Portfolio">
+    <meta name="author" content="Tiana Di Novo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font stuff-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <a class="grab" id="demoReel"></a>
+    <div id="navSection">
+        <a href="home.html"><img id="siteLogo" src="assets/media/weblogo.svg" alt="Tiana Di Novo Logo"></a>
+        <div id="nav">
+            <a href="#about">About</a>
+            <a href="#demoReel">Animation</a>
+            <a href="#illus">Illustration</a>
+            <a href="#modelling">Modelling</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    <main>
+        <video src="assets/media/td_demoreel_720p.mp4" controls autoplay muted id="demoReel" alt="Tiana Di Novo's 2024 Demo Reel">
+        </video>
+        <div class="boldText">
+            Ideas Realized
+        </div>
+        <a class="grab" id="about"></a>
+        <div class="spacer"></div>
+        <div class="title">
+            About
+        </div>
+        <div id="tdDesc">
+            Tiana Di Novo is an Ottawa-based multimedia artist.<br>
+            Years of intensive study have earned her a broad 
+            understanding of the arts, and a passion for improvement.
+            <br><br>
+            <a target="_blank" href="assets/media/td_project1_Jul18_v3_resume.pdf">Resume</a><br>
+            <a target="_blank" href="assets/media/td_project1_Jul18_v4_coverLetter.pdf">Cover Letter</a>
+        </div>
+        <a class="grab" id="illus"></a>
+        <div class="spacer"></div>
+        <div class="title">
+            Illustration
+        </div>
+        <div id="illusFilter">
+            <input type="radio" id="all" name="galleryOne" value="" checked>
+            <label for="all">All</label>
+            <input type="radio" id="digital" name="galleryOne" value="digital">
+            <label for="digital">Digital</label>
+            <input type="radio" id="trad" name="galleryOne" value="trad">
+            <label for="trad">Traditional</label>
+        </div>
+        <div class="tinyText">Click images to view Full</div>
+        <div class="mainGallery" id="illusGallery">
+        </div>
+        <a class="grab" id="modelling"></a>
+        <div class="spacer"></div>
+        <div class="title">
+            Modelling/ Sculpture
+        </div>
+        <div id="modFilter">
+            <input type="radio" id="modAll" name="galleryTwo" value="" checked>
+            <label for="modAll">All</label>
+            <input type="radio" id="modDigital" name="galleryTwo" value="digital">
+            <label for="modDigital">Digital</label>
+            <input type="radio" id="modTrad" name="galleryTwo" value="trad">
+            <label for="modTrad">Traditional</label>
+        </div>
+        <div class="tinyText">Click images to view Full</div>
+        <div class="mainGallery" id="modellingGallery">
+        </div>
+        <a class="grab" id="contact"></a>
+        <div class="spacer"></div>
+        <div class="title">
+            Contact
+        </div>
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="d86b1ba7-6ba9-4f97-9fa6-e208441fce0e">
+
+            <label for="name">Name</label>
+            <br>
+            <input required type="text" id="name" name="name" maxlength="100" placeholder="Your name..." autocomplete="on">
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input required type="text" id="email" name="email" maxlength="100" placeholder="Your email..." autocomplete="on" pattern="[^@\s]+@[^@\s]+">
+            <br>
+            <label for="phone">(optional) Phone Number</label>
+            <br>
+            <input type="text" id="phone" name="phone" maxlength="20" placeholder="Your number..." autocomplete="on">
+            <br>
+            <label for="subject">Subject</label>
+            <br>
+            <textarea required id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            <br>
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <input type="submit" value="Submit">
+
+        </form>
+    </main>
+    <div id="footer">
+        <a href="home.html">BACK TO TOP</a>
+    </div>
+    <a id="return" href="#">^</a>
+</body>
+<script src="assets/main.js"></script>
+
+</html>
