@@ -162,7 +162,8 @@ function galleryLoad(galleryOneFilter = '', galleryTwoFilter = ''){
         //add the class for gallery items
         newEl.classList.add('galleryItem');
         //inside the div will be
-        newEl.innerHTML = `<a target="_blank" href="${d.full}"><img src="${d.image}" alt="${d.desc}" width="600" height="400"></a><div class="galleryDesc">${d.desc}</div>`;
+        //<a target="_blank" href="${d.full}"> + the closing </a>
+        newEl.innerHTML = `<img src="${d.image}" alt="${d.desc}"><div class="galleryDesc">${d.desc}</div>`;
         //check gallery in data(d) for illus or three
         switch(d.gallery){
             case 'illus':
@@ -172,21 +173,27 @@ function galleryLoad(galleryOneFilter = '', galleryTwoFilter = ''){
                 threeD.appendChild(newEl);
             break;
         };
-        // newEl.addEventListener('click',(e) => {
-        //     // const image = newEl.childNodes[0]
-        //     if (!newEl.classList.contains('enlargedGalleryItem')) {
-        //         illus.childNodes.forEach(c => {
-        //             c.classList.remove('enlargedGalleryItem');
-        //         })
-        //         threeD.childNodes.forEach(c => {
-        //             c.classList.remove('enlargedGalleryItem');
-        //         })
-        //         newEl.classList.add('enlargedGalleryItem');
-        //     } else {
-        //         newEl.classList.remove('enlargedGalleryItem');
-        //     }
+        newEl.addEventListener('click',(e) => {
+             const image = newEl.childNodes[0]
+             if (!newEl.classList.contains('enlargedGalleryItem')) {
+                illus.childNodes.forEach(c => {
+                     c.classList.remove('enlargedGalleryItem');
+                     c.classList.add('galleryItem');
+                 })
+                 threeD.childNodes.forEach(c => {
+                     c.classList.remove('enlargedGalleryItem');
+                     c.classList.add('galleryItem');
+                 })
+                 newEl.classList.add('enlargedGalleryItem');
+                 newEl.classList.remove('galleryItem');
+                 newEl.innerHTML =`<img src="${d.full}" alt="${d.desc}"><br>X`;
+             } else {
+                 newEl.classList.remove('enlargedGalleryItem');
+                 newEl.classList.add('galleryItem');
+                 newEl.innerHTML =`<img src="${d.image}" alt="${d.desc}"><div class="galleryDesc">${d.desc}</div>`;
+             }
             
-        // })
+         })
     });
 }
 
