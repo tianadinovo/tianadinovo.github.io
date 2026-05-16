@@ -16,7 +16,7 @@
     <div id="navSection">
         <a href="#"><img id="siteLogo" src="assets/media/weblogo.svg" alt="Tiana Di Novo Logo"></a>
         <div id="nav">
-            <a href="#">About</a>
+            <a href="#">DemoReel</a>
             <a href="#anim">Animation</a>
             <a href="#illus">Illustration</a>
             <a href="#modelling">Modelling</a>
@@ -24,36 +24,19 @@
         </div>
     </div>
     <main>
-        <div class="boldText">
-            Ideas Realized
-        </div>
-        <div id="tdDesc">
-            I am an Ottawa-based multimedia artist.<br>
-            After years of learning, I've earned a broad 
-            understanding of the arts, and a passion for improvement.<br>
-            I love to combine fantasy with understanding. 
-        </div>
-        <a class="grab" id="anim"></a>
-        <div class="spacer"></div>
+        <!--add new demo reel here-->
+        <a class="grab" id="demo"></a>
         <video src="assets/media/td_demoreel_720p.mp4" controls muted id="demoReel" alt="Tiana Di Novo's 2024 Demo Reel">
         </video>
-        <a class="grab" id="illus"></a>
+        <!--add new demo reel here AND sheridan capstone-->
+        <a class="grab" id="anim"></a>
         <div class="spacer"></div>
         <div class="title">
-            Illustration
-        </div>
-        <div id="illusFilter">
-            <input type="radio" id="all" name="galleryOne" value="" checked>
-            <label for="all">All</label>
-            <input type="radio" id="digital" name="galleryOne" value="digital">
-            <label for="digital">Digital</label>
-            <input type="radio" id="trad" name="galleryOne" value="trad">
-            <label for="trad">Traditional</label>
+            Animation
         </div>
         <div class="tinyText">Click images to Enlarge</div>
-        <div class="mainGallery" id="illusGallery">
+        <div class="mainGallery" id="animGallery">
         </div>
-        <a class="grab" id="modelling"></a>
         <div class="spacer"></div>
         <div class="title">
             Modelling/ Sculpture
@@ -69,6 +52,23 @@
         <div class="tinyText">Click images to Enlarge</div>
         <div class="mainGallery" id="modellingGallery">
         </div>
+        <a class="grab" id="illus"></a>
+        <div class="spacer"></div>
+        <div class="title">
+            Illustration & Studies
+        </div>
+        <div id="illusFilter">
+            <input type="radio" id="all" name="galleryOne" value="" checked>
+            <label for="all">All</label>
+            <input type="radio" id="digital" name="galleryOne" value="digital">
+            <label for="digital">Digital</label>
+            <input type="radio" id="trad" name="galleryOne" value="trad">
+            <label for="trad">Traditional</label>
+        </div>
+        <div class="tinyText">Click images to Enlarge</div>
+        <div class="mainGallery" id="illusGallery">
+        </div>
+        
         <a class="grab" id="contact"></a>
         <div class="spacer"></div>
         <div class="title">
@@ -78,21 +78,17 @@
 
             <input type="hidden" name="access_key" value="d86b1ba7-6ba9-4f97-9fa6-e208441fce0e">
 
-            <label for="name">Name</label>
+            <!-- <label for="name">Name</label><br> -->
+            <input required type="text" id="forminput" name="name" maxlength="100" placeholder="Your name..." autocomplete="on">
             <br>
-            <input required type="text" id="name" name="name" maxlength="100" placeholder="Your name..." autocomplete="on">
+            <!--<label for="email">Email</label><br>-->
+            <input required type="text" id="forminput" name="email" maxlength="100" placeholder="Your email..." autocomplete="on" pattern="[^@\s]+@[^@\s]+">
             <br>
-            <label for="email">Email</label>
+            <!--<label for="phone">(optional) Phone Number</label><br>-->
+            <input type="text" id="forminput" name="phone" maxlength="20" placeholder="(Optional) Your phone number..." autocomplete="on">
             <br>
-            <input required type="text" id="email" name="email" maxlength="100" placeholder="Your email..." autocomplete="on" pattern="[^@\s]+@[^@\s]+">
-            <br>
-            <label for="phone">(optional) Phone Number</label>
-            <br>
-            <input type="text" id="phone" name="phone" maxlength="20" placeholder="Your number..." autocomplete="on">
-            <br>
-            <label for="subject">Subject</label>
-            <br>
-            <textarea required id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            <!--<label for="subject">Subject</label><br>-->
+            <textarea required id="forminput" name="subject" placeholder="Message..." style="height:200px"></textarea>
             <br>
             <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
             <input type="submit" value="Submit">
@@ -101,7 +97,7 @@
     </main>
     <div id="footer">
         <a href="#">BACK TO TOP</a><br><br>
-        &nbsp;&copy;2024 Tiana Di Novo
+        &nbsp;&copy;2026 Tiana Di Novo
     </div>
     <a id="return" href="#">^</a>
 </body>
