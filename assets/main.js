@@ -97,6 +97,12 @@ const data = [
         gallery: 'three',
         desc: 'Crocheted wire Fawn sculpture separate from Camoflage painting'
     },{
+        image: 'assets/media/thumb/thumbHand.jfif',
+        full: 'assets/media/Hand.gif',
+        type: 'digital',
+        gallery: 'three',
+        desc: 'Monster hand'
+    },,{
         image: 'assets/media/thumb/thumbtank.jpeg',
         full: 'assets/media/tank.gif',
         type: 'digital',
