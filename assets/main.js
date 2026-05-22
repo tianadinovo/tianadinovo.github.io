@@ -162,6 +162,66 @@ const data = [
         type: '0',
         gallery: 'anim',
         desc: '2D animation of a goose in flight'
+    },{
+        image: 'assets/media/thumb/thumbHandler1.jfif',
+        full: 'assets/media/Handler1.jfif',
+        type: '0',
+        gallery: 'proc',
+        desc: 'part 1'
+    },{
+        image: 'assets/media/thumb/thumbHandler2.jfif',
+        full: 'assets/media/Handler2.jfif',
+        type: '0',
+        gallery: 'proc',
+        desc: 'part 2'
+    },{
+        image: 'assets/media/thumb/thumbHandler3.jfif',
+        full: 'assets/media/Handler3.jfif',
+        type: '0',
+        gallery: 'proc',
+        desc: 'part 3'
+    },{
+        image: 'assets/media/thumb/thumbHandler4.jfif',
+        full: 'assets/media/Handler4.jfif',
+        type: '0',
+        gallery: 'proc',
+        desc: 'part 4'
+    },{
+        image: 'assets/media/thumb/thumbHandler5.jfif',
+        full: 'assets/media/Handler5.jfif',
+        type: '0',
+        gallery: 'proc',
+        desc: 'part 5'
+    },{
+        image: 'assets/media/thumb/thumbHandler6.jfif',
+        full: 'assets/media/Handler6.jfif',
+        type: '0',
+        gallery: 'proc',
+        desc: 'part 6'
+    },{
+        image: 'assets/media/thumb/thumbHandler7.jfif',
+        full: 'assets/media/Handler7.jfif',
+        type: '0',
+        gallery: 'proc',
+        desc: 'part 7'
+    },{
+        image: 'assets/media/thumb/thumbHandler8.jfif',
+        full: 'assets/media/Handler8.jfif',
+        type: '0',
+        gallery: 'proc',
+        desc: 'part 8'
+    },{
+        image: 'assets/media/thumb/thumbHandler9.jfif',
+        full: 'assets/media/Handler9.png',
+        type: '0',
+        gallery: 'proc',
+        desc: 'part 9'
+    },{
+        image: 'assets/media/thumb/thumbHandler10.jfif',
+        full: 'assets/media/Handler10.png',
+        type: '0',
+        gallery: 'proc',
+        desc: 'part 10'
     }
 ]
 
@@ -170,6 +230,7 @@ const data = [
 const anim = document.querySelector("#animGallery");
 const threeD = document.querySelector("#modellingGallery");
 const illus = document.querySelector("#illusGallery");
+const proc = document.querySelector("#procGallery");
 
 //if the item is listed as three or illus gallery, it goes in the corresponding gallery
 galleryLoad();
@@ -182,11 +243,12 @@ const galleryOneRadio = document.getElementsByName('galleryOne');
 const galleryTwoRadio = document.getElementsByName('galleryTwo');
 
 //anim is gallery 3 as it is the newest addition
-function galleryLoad(galleryOneFilter = '', galleryTwoFilter = '', galleryThreeFilter = ''){
+function galleryLoad(galleryOneFilter = '', galleryTwoFilter = '', galleryThreeFilter = '', galleryFourFilter = ''){
     //clear galleries every time button is clicked, so it doesnt duplicate
     anim.innerHTML = '';
     threeD.innerHTML = '';
     illus.innerHTML = '';
+    proc.innerHTML = '';
     
     data.filter((d) => {
         if (d.gallery === 'illus' && d.type.includes(galleryOneFilter)) {
@@ -196,6 +258,9 @@ function galleryLoad(galleryOneFilter = '', galleryTwoFilter = '', galleryThreeF
             return d;
         }
         if (d.gallery === 'anim' && d.type.includes(galleryThreeFilter)) {
+            return d;
+        }
+        if (d.gallery === 'proc' && d.type.includes(galleryFourFilter)) {
             return d;
         }
     }).forEach((d) => {
@@ -215,6 +280,9 @@ function galleryLoad(galleryOneFilter = '', galleryTwoFilter = '', galleryThreeF
             break;
             case 'anim':
                 anim.appendChild(newEl);
+            break;
+            case 'proc':
+                proc.appendChild(newEl);
             break;
         };
         newEl.addEventListener('click',(e) => {
