@@ -89,7 +89,7 @@ const data = [
         full: 'assets/media/Handler.gif',
         type: 'digital',
         gallery: 'three',
-        desc: 'The Handler, Sheridan capstone creature'
+        desc: 'The Handler, my Sheridan capstone creature<br>Stone Structure by Quixel Megascans'
     },{
         image: 'assets/media/thumb/thumbFawn.jfif',
         full: 'assets/media/fawn.jfif',
@@ -113,13 +113,13 @@ const data = [
         full: 'assets/media/DogAnim.gif',
         type: '0',
         gallery: 'anim',
-        desc: 'Animation of a dog diving'
+        desc: 'Animation of a dog diving<br>Rig by Dennis Turner'
     },{
         image: 'assets/media/thumb/thumbApeAnim.jfif',
         full: 'assets/media/ApeAnim.gif',
         type: '0',
         gallery: 'anim',
-        desc: 'Animation of an ape swinging'
+        desc: 'Animation of an ape swinging<br>Rig by Dennis Turner'
     },{
         image: 'assets/media/thumb/thumbHandlerWalk.jfif',
         full: 'assets/media/HandlerWalk.gif',
@@ -131,31 +131,31 @@ const data = [
         full: 'assets/media/SluggyPerform.gif',
         type: '0',
         gallery: 'anim',
-        desc: 'Animation of an aquatic creature (Sluggy) swimming'
+        desc: 'Animation of an aquatic creature (Sluggy) swimming<br>Rig by Dennis Turner'
     },{
         image: 'assets/media/thumb/thumbSluggySwim.jfif',
         full: 'assets/media/SluggySwim.gif',
         type: '0',
         gallery: 'anim',
-        desc: 'Animated cycle of an aquatic creature (Sluggy) swimming'
+        desc: 'Animated cycle of an aquatic creature (Sluggy) swimming<br>Rig by Dennis Turner'
     },{
         image: 'assets/media/thumb/thumbDogSwim.jfif',
         full: 'assets/media/DogSwim.gif',
         type: '0',
         gallery: 'anim',
-        desc: 'Animated cycle of a dog swimming'
+        desc: 'Animated cycle of a dog swimming<br>Rig by Dennis Turner'
     },{
         image: 'assets/media/thumb/thumbDogRun.jfif',
         full: 'assets/media/DogRun.gif',
         type: '0',
         gallery: 'anim',
-        desc: 'Animated cycle of a dog running'
+        desc: 'Animated cycle of a dog running<br>Rig by Dennis Turner'
     },{
         image: 'assets/media/thumb/thumbDogWalk.jfif',
         full: 'assets/media/DogWalk.gif',
         type: '0',
         gallery: 'anim',
-        desc: 'Animated cycle  of a dog walking'
+        desc: 'Animated cycle  of a dog walking<br>Rig by Dennis Turner'
     },{
         image: 'assets/media/thumb/thumbGooseFlight.jfif',
         full: 'assets/media/GooseFlight.gif',
