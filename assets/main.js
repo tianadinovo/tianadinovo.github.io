@@ -92,7 +92,7 @@ const data = [
         desc: 'The Handler, Sheridan capstone creature'
     },{
         image: 'assets/media/thumb/thumbFawn.jfif',
-        full: 'assets/media/Fawn.jfif',
+        full: 'assets/media/fawn.jfif',
         type: 'trad',
         gallery: 'three',
         desc: 'Crocheted wire Fawn sculpture separate from Camoflage painting'
