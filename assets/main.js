@@ -5,13 +5,13 @@ const data = [
         full: 'assets/media/camofawn.png',
         type: 'trad',
         gallery: 'illus',
-        desc: 'Painting with the fawn sculpture in front of it'
+        desc: 'Camoflage, acrylic with the Fawn sculpture in front of it'
     },{
         image: 'assets/media/thumb/thumbpersp.jfif',
         full: 'assets/media/persp.jfif',
         type: 'trad',
         gallery: 'illus',
-        desc: 'Perspective timed study of figures'
+        desc: 'Perspective timed study of figures, 5 minutes each'
     },{
         image: 'assets/media/thumb/thumbgoat.jfif',
         full: 'assets/media/goat.jfif',
@@ -35,7 +35,7 @@ const data = [
         full: 'assets/media/cave.jpeg',
         type: 'digital',
         gallery: 'illus',
-        desc: 'Cave Woman vs Dinosaur'
+        desc: 'Cave Woman vs Dinosaur digital illustration'
     },{
         image: 'assets/media/thumb/thumbmirror.jpeg',
         full: 'assets/media/mirror.png',
@@ -47,49 +47,49 @@ const data = [
         full: 'assets/media/coop.jpeg',
         type: 'trad',
         gallery: 'illus',
-        desc: 'Cooper'
+        desc: 'Study of my dog, Cooper'
     },{
         image: 'assets/media/thumb/thumbpool.jpeg',
         full: 'assets/media/pool.jpeg',
         type: 'digital',
         gallery: 'illus',
-        desc: 'Pool'
+        desc: 'Digitally painted poster concept for a hypothetical film, The Cruise'
     },{
         image: 'assets/media/thumb/thumbday.jpeg',
         full: 'assets/media/day.png',
         type: 'trad',
         gallery: 'illus',
-        desc: 'Winter Day'
+        desc: 'Winter Day, acrylic painting'
     },{
         image: 'assets/media/thumb/thumbnight.jpeg',
         full: 'assets/media/night.png',
         type: 'trad',
         gallery: 'illus',
-        desc: 'Winter Night'
+        desc: 'Winter Night, acrylic painting'
     },{
         image: 'assets/media/thumb/thumblove.jpeg',
         full: 'assets/media/love.jpeg',
         type: 'digital',
         gallery: 'illus',
-        desc: 'Love of Art - OSA 145th anniv piece'
+        desc: 'Love of Art - comissioned OSA 145th anniv piece'
     },{
         image: 'assets/media/thumb/thumbodin.jpeg',
         full: 'assets/media/odin.jpeg',
         type: 'trad',
         gallery: 'illus',
-        desc: 'Odin'
+        desc: 'Studies of my dog, Odin'
     },{
         image: 'assets/media/thumb/thumbladdy.jpeg',
         full: 'assets/media/laddy.png',
         type: 'digital',
         gallery: 'illus',
-        desc: 'Laddy the Lamb'
+        desc: 'Laddy the Lamb digital concept art'
     },{
         image: 'assets/media/thumb/thumbHandler.jfif',
         full: 'assets/media/Handler.gif',
         type: 'digital',
         gallery: 'three',
-        desc: 'The Handler'
+        desc: 'The Handler, Sheridan capstone creature'
     },{
         image: 'assets/media/thumb/thumbFawn.jfif',
         full: 'assets/media/Fawn.png',
@@ -101,13 +101,13 @@ const data = [
         full: 'assets/media/Hand.gif',
         type: 'digital',
         gallery: 'three',
-        desc: 'Monster hand'
+        desc: 'Monster hand sculpture'
     },,{
         image: 'assets/media/thumb/thumbtank.jpeg',
         full: 'assets/media/tank.gif',
         type: 'digital',
         gallery: 'three',
-        desc: 'Tank'
+        desc: 'Box-modelled Tank'
     },{
         image: 'assets/media/thumb/thumbDogAnim.jfif',
         full: 'assets/media/DogAnim.gif',
@@ -131,13 +131,13 @@ const data = [
         full: 'assets/media/SluggyPerform.gif',
         type: '0',
         gallery: 'anim',
-        desc: 'Animation of an aquatic creature swimming'
+        desc: 'Animation of an aquatic creature (Sluggy) swimming'
     },{
         image: 'assets/media/thumb/thumbSluggySwim.jfif',
         full: 'assets/media/SluggySwim.gif',
         type: '0',
         gallery: 'anim',
-        desc: 'Animation of an aquatic creature swimming'
+        desc: 'Animation of an aquatic creature (Sluggy) swimming'
     },{
         image: 'assets/media/thumb/thumbDogSwim.jfif',
         full: 'assets/media/DogSwim.gif',
@@ -164,64 +164,34 @@ const data = [
         desc: '2D animation of a goose in flight'
     },{
         image: 'assets/media/thumb/thumbHandler1.jfif',
-        full: 'assets/media/Handler1.jfif',
+        full: 'assets/media/HandlerSketch.jfif',
         type: '0',
         gallery: 'proc',
-        desc: 'part 1'
-    },{
-        image: 'assets/media/thumb/thumbHandler2.jfif',
-        full: 'assets/media/Handler2.jfif',
-        type: '0',
-        gallery: 'proc',
-        desc: 'part 2'
-    },{
-        image: 'assets/media/thumb/thumbHandler3.jfif',
-        full: 'assets/media/Handler3.jfif',
-        type: '0',
-        gallery: 'proc',
-        desc: 'part 3'
-    },{
-        image: 'assets/media/thumb/thumbHandler4.jfif',
-        full: 'assets/media/Handler4.jfif',
-        type: '0',
-        gallery: 'proc',
-        desc: 'part 4'
-    },{
-        image: 'assets/media/thumb/thumbHandler5.jfif',
-        full: 'assets/media/Handler5.jfif',
-        type: '0',
-        gallery: 'proc',
-        desc: 'part 5'
+        desc: 'Initial concept sketches'
     },{
         image: 'assets/media/thumb/thumbHandler6.jfif',
-        full: 'assets/media/Handler6.jfif',
+        full: 'assets/media/HandlerExplore.jfif',
         type: '0',
         gallery: 'proc',
-        desc: 'part 6'
+        desc: 'Exploration of the mushroom hand concept'
     },{
-        image: 'assets/media/thumb/thumbHandler7.jfif',
-        full: 'assets/media/Handler7.jfif',
+        image: 'assets/media/thumb/thumbHandlerAnatomy.jfif',
+        full: 'assets/media/HandlerAnatomy.jfif',
         type: '0',
         gallery: 'proc',
-        desc: 'part 7'
-    },{
-        image: 'assets/media/thumb/thumbHandler8.jfif',
-        full: 'assets/media/Handler8.jfif',
-        type: '0',
-        gallery: 'proc',
-        desc: 'part 8'
+        desc: 'Exploration of the creatures potential anatomy'
     },{
         image: 'assets/media/thumb/thumbHandler9.jfif',
         full: 'assets/media/Handler9.png',
         type: '0',
         gallery: 'proc',
-        desc: 'part 9'
+        desc: 'Initial blocking stage for the sculpt'
     },{
         image: 'assets/media/thumb/thumbHandler10.jfif',
         full: 'assets/media/Handler10.png',
         type: '0',
         gallery: 'proc',
-        desc: 'part 10'
+        desc: 'Final sculpt with refined proportions and simplified details'
     }
 ]
 
@@ -298,7 +268,7 @@ function galleryLoad(galleryOneFilter = '', galleryTwoFilter = '', galleryThreeF
                  })
                  newEl.classList.add('enlargedGalleryItem');
                  newEl.classList.remove('galleryItem');
-                 newEl.innerHTML =`<img src="${d.full}" alt="${d.desc}"><br>X`;
+                 newEl.innerHTML =`<img src="${d.full}" alt="${d.desc}"><br>${d.desc}<br>X`;
              } else {
                  newEl.classList.remove('enlargedGalleryItem');
                  newEl.classList.add('galleryItem');
