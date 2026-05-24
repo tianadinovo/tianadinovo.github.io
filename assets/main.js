@@ -41,7 +41,7 @@ const data = [
         full: 'assets/media/mirror.png',
         type: 'digital',
         gallery: 'illus',
-        desc: 'Mirror'
+        desc: 'Mirror digital painting'
     },{
         image: 'assets/media/thumb/thumbcoop.jpeg',
         full: 'assets/media/coop.jpeg',
@@ -62,7 +62,7 @@ const data = [
         desc: 'Winter Day, acrylic painting'
     },{
         image: 'assets/media/thumb/thumbnight.jpeg',
-        full: 'assets/media/night.png',
+        full: 'assets/media/night.jfif',
         type: 'trad',
         gallery: 'illus',
         desc: 'Winter Night, acrylic painting'
@@ -92,7 +92,7 @@ const data = [
         desc: 'The Handler, Sheridan capstone creature'
     },{
         image: 'assets/media/thumb/thumbFawn.jfif',
-        full: 'assets/media/Fawn.png',
+        full: 'assets/media/Fawn.jfif',
         type: 'trad',
         gallery: 'three',
         desc: 'Crocheted wire Fawn sculpture separate from Camoflage painting'
@@ -137,7 +137,7 @@ const data = [
         full: 'assets/media/SluggySwim.gif',
         type: '0',
         gallery: 'anim',
-        desc: 'Animation of an aquatic creature (Sluggy) swimming'
+        desc: 'Animated cycle of an aquatic creature (Sluggy) swimming'
     },{
         image: 'assets/media/thumb/thumbDogSwim.jfif',
         full: 'assets/media/DogSwim.gif',
