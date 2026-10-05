@@ -91,6 +91,16 @@ main {
     max-width: 1200px;
 }
 
+#animVid {
+    margin: auto auto 2rem auto;
+    box-sizing: inherit;
+    align-self: center;
+    aspect-ratio: 16 / 9;
+    width: 60%;
+    max-width: 1200px;
+}
+
+
 .boldText {
     font-size: 3rem;
     margin: 0rem 0rem 1rem 0rem;
