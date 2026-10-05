@@ -87,7 +87,7 @@ main {
     box-sizing: inherit;
     align-self: center;
     aspect-ratio: 16 / 9;
-    width: 90%;
+    width: 85%;
     max-width: 1200px;
 }
 
@@ -121,6 +121,7 @@ main {
 
 .tinyText{
     font-size: xx-small;
+    padding: 0.6rem
 }
 
 input[type='radio'] {
